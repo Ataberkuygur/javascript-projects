@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panda Design</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    
+    <div id="character">
+        <div 
+            id="panda"            
+        >
+            <div id="head">
+
+                <div id="ears">
+                    <div id="ear-left"></div>
+                    <div id="ear-right"></div>
+                </div>
+
+                <div id="face">
+                    <div id="top">
+                        <div id="eyebrows">
+                            <div id="eyebrow-left"></div>
+                            <div id="eyebrow-right"></div>
+                        </div>
+                        <div id="eyes">
+                            <div id="eye-left">
+                                <div id="black-circle"></div>
+                            </div>
+                            <div id="eye-right">
+                                <div id="black-circle"></div>
+                            </div>
+                        </div>
+                        <div id="tear">
+                        </div>
+                    </div>
+
+                    <div id="middle">
+                        <div id="nose">
+                        </div>
+                    </div>
+
+                    <div id="bottom">
+                        <div id="mouth"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="animation-buttons">
+        <button onclick="sadAnimation()">Sad Panda</button>
+        <button onclick="happyAnimation()">Happy Panda</button>
+        <button onclick="angryAnimation()">Angry Panda</button>
+        <button onclick="resetAnimations()">Reset</button>
+    </div>
+
+    <script src="./app.js"></script>
+</body>
+</html>
