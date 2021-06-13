@@ -30,7 +30,8 @@ const guessTheColor = (clickedColor) => {
                 document.body.style.backgroundColor = chosenColor;
                 localStorage.removeItem('chosenColor');
                 localStorage.clear();
-                alert('Kazandın!')
+                alert('Kazandın!');
+                setTimeout(() => { console.log('Wait...') }, 1000);
                 location.reload();
             }
         }
