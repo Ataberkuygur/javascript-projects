@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess The Color</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body onload="chooseRandomColor()">
+
+    <div class="main">
+        <p id="choiceCount">
+        </p>
+        <div class="color-box-list">
+            <div 
+                class="color-box green"
+                onclick="guessTheColor('green')"
+            >
+            </div>
+            <div 
+                class="color-box blue"
+                onclick="guessTheColor('blue')"
+            >
+            </div>
+            <div 
+                class="color-box red"
+                onclick="guessTheColor('red')"
+            >
+            </div>
+            <div 
+                class="color-box orange"
+                onclick="guessTheColor('orange')"
+            >
+            </div>
+            <div 
+                class="color-box pink"
+                onclick="guessTheColor('pink')"
+            >
+            </div>
+            <div 
+                class="color-box yellow"
+                onclick="guessTheColor('yellow')"
+            >
+            </div>
+            <div 
+                class="color-box brown"
+                onclick="guessTheColor('brown')"
+            >
+            </div>
+            <div 
+                class="color-box gray"
+                onclick="guessTheColor('gray')"
+            >
+            </div>
+        </div>
+    </div>
+
+    <script src="./app.js"></script>
+</body>
+</html>

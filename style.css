@@ -1,0 +1,101 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.main{
+    width: 480px;
+    margin-top: 200px;
+}
+
+p{
+    font-family: sans-serif;
+    text-align: end;
+    margin-right: 8px;
+}
+
+.color-box-list{
+    width: 100%;
+    display: flex;
+}
+
+.color-box{
+    width: 15%;
+    height: 60px;
+    margin: auto;
+    margin-right: 5px;
+}
+
+.color-box.green{
+    background-color: green;
+}
+
+.color-box.green:hover{
+    box-shadow: 1px 1px 5px 2px green;
+    transition: box-shadow 0.2s;
+}
+
+.color-box.blue{
+    background-color: blue;
+}
+
+.color-box.blue:hover{
+    box-shadow: 1px 1px 5px 2px rgb(47, 47, 237);
+    transition: box-shadow 0.2s;
+}
+
+.color-box.red{
+    background-color: red;
+}
+
+.color-box.red:hover{
+    box-shadow: 1px 1px 5px 2px rgb(232, 42, 42);
+    transition: box-shadow 0.2s;
+}
+
+.color-box.orange{
+    background-color: orange;
+}
+
+.color-box.orange:hover{
+    box-shadow: 1px 1px 5px 2px rgb(230, 162, 36);
+    transition: box-shadow 0.2s;
+}
+
+.color-box.pink{
+    background-color: pink;
+}
+
+.color-box.pink:hover{
+    box-shadow: 1px 1px 5px 2px rgb(245, 207, 214);
+    transition: box-shadow 0.2s;
+}
+
+.color-box.yellow{
+    background-color: yellow;
+}
+
+.color-box.yellow:hover{
+    box-shadow: 1px 1px 5px 2px rgb(235, 235, 76);
+    transition: box-shadow 0.2s;
+}
+
+.color-box.brown{
+    background-color: brown;
+}
+
+.color-box.brown:hover{
+    box-shadow: 1px 1px 5px 2px brown;
+    transition: box-shadow 0.2s;
+}
+
+.color-box.gray{
+    background-color: gray;
+}
+
+.color-box.gray:hover{
+    box-shadow: 1px 1px 5px 2px gray;
+    transition: box-shadow 0.2s;
+}
